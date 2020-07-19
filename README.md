@@ -1,6 +1,6 @@
 # springbootEurekaDemo
 
-it had three service each service should build independently.</br>
+it had three services each service should build independently.</br>
 
 navigate Discoveryservice and run `mvn install` or directly run `mvn spring-boot:run` </br>
 navigate orderservice and run `mvn install` or directly run `mvn spring-boot:run` </br>
