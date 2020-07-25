@@ -1,0 +1,20 @@
+version: "3"
+services:
+  demoapplication:
+    image: dockerdemo:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      -  /data/dockerdemo
+    ports: 
+      - "7070:7070"
+  userapplication:
+    image: user:latest
+    build:
+      context: ./
+      dockerfile: C:/Users/212711129/Downloads/SpringBootDemo/Dockerfile
+    volumes:
+      -  /data/userdemo
+    ports: 
+      - "8077:8077"
